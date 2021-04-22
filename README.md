@@ -2,8 +2,6 @@
 
 this is an example of creating a swap asset (ERC20) contract with required `Swapin` and `Swapout` methods for cross chain bridge.
 
-please ref. to [CrossChain-Bridge](https://github.com/anyswap/CrossChain-Bridge).
-
 ## How to deploy contract using truffle
 
 ## 0. install @openzeppelin/contracts
@@ -27,7 +25,7 @@ truffle-flattener internal/Erc20SwapAsset.sol | sed '/SPDX-License-Identifier:/d
 ### 1. Modify truffle config
 
 [truffle-config.js](
-https://github.com/anyswap/mBTC/blob/master/truffle-config.js)
+https://github.com/orionstardust/LLKBTC/blob/master/truffle-config.js)
  
  Normally, you may meed to modify the following items:
  
@@ -39,13 +37,13 @@ https://github.com/anyswap/mBTC/blob/master/truffle-config.js)
 
  Add and modify contracts in `contracts` directory.
 
- like our example: [BtcSwapAsset.sol](https://github.com/anyswap/mBTC/blob/master/contracts/BtcSwapAsset.sol).
+ like our example: [BtcSwapAsset.sol](https://github.com/orionstardust/LLKBTC/blob/master/contracts/BtcSwapAsset.sol).
 
 ### 3. Add migrations to deploy contract
 
 Add an `js` file to depoly contract in `migrations` directory.
 
-like our example: [2_deploy_contracts.js](https://github.com/anyswap/mBTC/blob/master/migrations/2_deploy_contracts.js).
+like our example: [2_deploy_contracts.js](https://github.com/orionstardust/LLKBTC/blob/master/migrations/2_deploy_contracts.js).
 
 ### 4. Compile contract
 
