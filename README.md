@@ -25,7 +25,7 @@ truffle-flattener internal/Erc20SwapAsset.sol | sed '/SPDX-License-Identifier:/d
 ### 1. Modify truffle config
 
 [truffle-config.js](
-https://github.com/orionstardust/LLKBTC/truffle-config.js)
+https://github.com/orionstardust/LLKBTC/blob/master/truffle-config.js)
  
  Normally, you may meed to modify the following items:
  
@@ -37,13 +37,13 @@ https://github.com/orionstardust/LLKBTC/truffle-config.js)
 
  Add and modify contracts in `contracts` directory.
 
- like our example: [BtcSwapAsset.sol](https://github.com/orionstardust/LLKBTC/contracts/BtcSwapAsset.sol).
+ like our example: [BtcSwapAsset.sol](https://github.com/orionstardust/LLKBTC/blob/master/contracts/BtcSwapAsset.sol).
 
 ### 3. Add migrations to deploy contract
 
 Add an `js` file to depoly contract in `migrations` directory.
 
-like our example: [2_deploy_contracts.js](https://github.com/orionstardust/LLKBTC/migrations/2_deploy_contracts.js).
+like our example: [2_deploy_contracts.js](https://github.com/orionstardust/LLKBTC/blob/master/migrations/2_deploy_contracts.js).
 
 ### 4. Compile contract
 
